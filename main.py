@@ -1,6 +1,6 @@
 import streamlit as st
 from src.processor.metrics_processor import MetricsProcessor
-from src.lib.formatting import display_chat_message, format_response, format_response_as_table
+from src.lib.formatting import format_response_as_table
 from src.config.settings import initialize_session_state, APP_TITLE, APP_ICON
 
 def main():
